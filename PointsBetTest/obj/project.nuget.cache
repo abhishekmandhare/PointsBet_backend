@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KBANLS+pLEI=",
+  "dgSpecHash": "zPsZ4wi8tlw=",
   "success": true,
-  "projectFilePath": "C:\\code\\PointsBet_Backend_Online_Code_Test_2.0\\PointsBetTest\\PointsBetTest.csproj",
+  "projectFilePath": "C:\\code\\PointsBet_Backend\\PointsBetTest\\PointsBetTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dsfds\\.nuget\\packages\\microsoft.applicationinsights\\2.23.0\\microsoft.applicationinsights.2.23.0.nupkg.sha512",
     "C:\\Users\\dsfds\\.nuget\\packages\\microsoft.codecoverage\\18.0.1\\microsoft.codecoverage.18.0.1.nupkg.sha512",

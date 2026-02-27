@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PointsBetTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e33b435d854661e55a4ca0b8d7abc7b941ad2107")]
 [assembly: System.Reflection.AssemblyProductAttribute("PointsBetTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PointsBetTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
