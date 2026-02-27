@@ -1,4 +1,4 @@
-﻿using PointsBet.Backend.Online.Code.Test;
+﻿using PointsBet.Backend.OnlineCodeTest;
 
 namespace PointsBet
 {
