@@ -23,9 +23,11 @@
         // 2. Fixed typo in function name
         // 3. Fixed edge cases of empty elements
         // 4. Removed redundancy and simplified.
-        public static string ToCommaSeparatedList(string[] items, string? quote)
+        public static string ToCommaSeparatedList(string[] items, string quote)
         {
             ArgumentNullException.ThrowIfNull(items);
+
+            quote = quote ?? string.Empty;
             return string.Join(", ",  items.Where(item => !string.IsNullOrWhiteSpace(item)).Select(item => $"{quote}{item}{quote}"));
         }
     }
