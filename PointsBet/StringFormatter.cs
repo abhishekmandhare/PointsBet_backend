@@ -1,4 +1,4 @@
-﻿namespace PointsBet.Backend.Online.Code.Test
+﻿namespace PointsBet.Backend.OnlineCodeTest
 {
 
     /*
@@ -13,10 +13,10 @@
     public class StringFormatter
     {
         // Making following assumptions:
-        // if quote is null, it will be empty string ""
+        // if quote is null, it will be returning an empty string ""
         // if items array is null, we cannot continue and it will throw argument exception.
-        // if items array is empty, it wll return empty string. I think this is less aggresive than throwing exception and caller will not have to additional handle errors.
-        // if one of the elements in items array is null empty or just spaces, it will skip over that element and continue with the rest. Reason having an empty , , doesn't make much sense. Other option is to fail the whole function, which to me is excessive and limiting.
+        // if items array is empty, it wll return empty string. I think this is less aggresive than throwing exception in this scenario and the caller will not have to additional handle errors.
+        // if one of the elements in items array is null empty or just spaces, it will skip over that element and continue with the rest. Reason: having an empty , , doesn't make much sense. Other option is to fail the whole function, which to me is excessive and limiting.
 
         // Improvements
         // 1. Using Linq (select, Where) instead of loop for readability.
